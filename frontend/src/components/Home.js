@@ -9,7 +9,7 @@ export default class Home extends Component {
     render() {
         return (
             
-            <Container style={{marginTop: '50px', textAlign: 'center'}}>
+            <Container style={{paddingTop: '50px',paddingBottom: '100px', textAlign: 'center'}}>
             <Row>
               <Col>
                 <Image src={img} roundedCircle />

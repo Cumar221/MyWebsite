@@ -14,6 +14,7 @@ import PersonalWebsite from './Personal Website/PersonalWebsite';
 import ProjectKoffee from './Project Koffee/ProjectKoffee';
 import SpaceSwerve from './Space Swerve/SpaceSwerve';
 import Resume from './Resume';
+import SalaamaHut from './SalaamaHut/SalaamaHut';
 import { Navbar, Nav } from "react-bootstrap";
 
 
@@ -50,6 +51,7 @@ export default class Header extends Component {
                     <Route path='/projectKoffee' component={ProjectKoffee} />
                     <Route path='/earlyBerd' component={EarlyBerd} />
                     <Route path='/resume' component={Resume} />
+                    <Route path='/salaamahut' component={SalaamaHut} />
                 </Switch>
             </Router>
         );
