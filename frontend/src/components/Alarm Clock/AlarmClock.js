@@ -14,7 +14,7 @@ export default class AlarmClock extends Component {
             <section id="portfolio" className="no-padding">
                 <div className="container-fluid">
                     <div className="row no-gutter">
-                        <div className="col-lg-6 col-sm-6" style={{ margin: '0 auto', paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px', color: 'black'}}>
+                        <div className="col-lg-6 col-sm-6" style={{ margin: '0 auto', paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px'}}>
                             <h1>Alarm Clock</h1>
                             <h6 style={{paddingBottom: '20px'}}>By: Cumar Yusuf - April 27<sup>th</sup>, 2017</h6>
                             <p> My group members

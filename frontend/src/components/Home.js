@@ -7,9 +7,8 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 export default class Home extends Component {
 
     render() {
-        return (
-            
-            <Container style={{paddingTop: '50px',paddingBottom: '100px', textAlign: 'center'}}>
+        return (  
+            <Container style={{paddingTop: '50px',paddingBottom: '100%', textAlign: 'center'}}>
             <Row>
               <Col>
                 <Image src={img} roundedCircle />

@@ -9,7 +9,7 @@ export default class EarlyBerd extends Component {
             <section id="portfolio" className="no-padding">
                 <div className="container-fluid">
                     <div className="row no-gutter">
-                        <div className="col-lg-6 col-sm-6" style={{ margin: '0 auto', paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px', color: 'black'}}>
+                        <div className="col-lg-6 col-sm-6" style={{ margin: '0 auto', paddingTop: '20px', paddingLeft: '10px', paddingRight: '10px'}}>
                             <h1>Early Berd</h1>
                             <h6 style={{paddingBottom: '20px'}}>By: Cumar Yusuf - January 1<sup>st</sup>, 2019</h6>
                             <p> Early Berd was a website I did for a client on Upwork as a freelancer. The website basically allowed
