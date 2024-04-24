@@ -40,7 +40,7 @@ export default class Footer extends Component {
         <Row style={{ marginBottom: "30px" }}>
           <Col xs={12} md={6}>
             <div style={{ margin: "10px", marginLeft: "10px" }}>
-              Copyright © 2023 Cumar Yusuf
+              Copyright © Cumar Yusuf 
             </div>
           </Col>
           <Col xs={12} md={6}>

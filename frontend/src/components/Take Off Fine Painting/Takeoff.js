@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import vid from "./img/SH2.mov";
+import vid from "./img/TF.mov";
 
-export default class SalaamaHut extends Component {
+
+export default class Takeoff extends Component {
   render() {
     return (
       <section id="portfolio" className="no-padding">
@@ -16,31 +17,27 @@ export default class SalaamaHut extends Component {
                 paddingRight: "10px",
               }}
             >
-              <h1>SalaamaHut</h1>
+              <h1>Takeoff Fine Painting</h1>
               <h6 style={{ paddingBottom: "20px" }}>
-                By: Cumar Yusuf - January 10<sup>th</sup>, 2019
+                By: Cumar Yusuf - January 1<sup>th</sup>, 2023
               </h6>
               <p>
                 <a
-                  href="https://www.salaamahut.com/"
+                  href="https://www.takeofffinepainting.ca/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "dodgerblue" }}
                 >
                   {" "}
-                  SalaamaHut
+                  Takeoff Fine Painting Ltd.
                 </a>
-                {" "} is a local East African and Somali Cusine Restaurant that I
-                had the opportunity to work with and assist the company with
-                its business website.
+                {" "} is a local painting company located in Toronto that I
+                had the opportunity to work with and assist them with
+                their business website.
               </p>
-              <p>
-                The website simply uses WordPress as the front and backend. The
-                domain address and website host was all done using Godaddy.
-              </p>
+              <p> The website uses HTML, CSS, ExpressJS and is hosted on firebase. </p>
             </div>
-          </div>
-          <div
+            <div
             style={{
               textAlign: "center",
               paddingTop: "10px",
@@ -52,6 +49,7 @@ export default class SalaamaHut extends Component {
               <source src={vid} type="video/ogg" />
               Your browser does not support HTML5 video.
             </video>
+          </div>
           </div>
         </div>
       </section>

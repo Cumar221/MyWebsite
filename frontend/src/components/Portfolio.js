@@ -11,6 +11,7 @@ import PW from './Personal Website/img/PW1.png';
 import PK from './Project Koffee/img/PK12.jpg';
 import SS from './Space Swerve/img/SS1.png';
 import SH from './SalaamaHut/img/SH1.png';
+import TF from './Take Off Fine Painting/img/TF.png';
 import { Link } from 'react-router-dom';
 
 
@@ -94,11 +95,17 @@ export default class Portfolio extends Component {
                             </Link>
                         </Col>
                     </Row>
-                    <Row style={{ marginBottom: '30px' }}>
+                    <Row style={{ marginBottom: '30px', alignItems: 'end'}}>
                         <Col xs={12} md={4}>
                             <Link to={'/salaamahut'} >
                                 <Image src={SH} thumbnail />
                                 <div className='portfolio' style = {{color: color, backgroundColor: backgroundColor}}>SalaamaHut</div>
+                            </Link>
+                        </Col>
+                        <Col xs={12} md={4}>
+                            <Link to={'/takeofffinepainting'} >
+                                <Image src={TF} thumbnail />
+                                <div className='portfolio' style = {{color: color, backgroundColor: backgroundColor}}>Takeoff Fine Painting</div>
                             </Link>
                         </Col>
                     </Row>

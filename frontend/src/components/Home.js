@@ -8,7 +8,7 @@ export default class Home extends Component {
 
     render() {
         return (  
-            <Container style={{paddingTop: '50px',paddingBottom: '100%', textAlign: 'center'}}>
+            <Container style={{paddingTop: '100px', textAlign: 'center'}}>
             <Row>
               <Col>
                 <Image src={img} roundedCircle />
@@ -18,13 +18,13 @@ export default class Home extends Component {
                 <h2>Cumar Yusuf</h2>
             </Row>
             <Row style={{justifyContent: 'center'}}>
-                <FontAwesomeIcon style={{paddingRight: '5px'}} icon={faGraduationCap}  color="#df342f" size="lg"/>
-                <h6>B.Sc. Computer Science</h6>
+                <h6><FontAwesomeIcon style={{paddingRight: '5px'}} icon={faGraduationCap}  color="#df342f" size="lg"/>
+                BSc Computer Science</h6>
             </Row>
             <Row style={{justifyContent: 'center', paddingTop: '20px'}}>
                 <Col xs={10} md={8}>
-                    <h5>Love to code, create beautiful UI, build and develop products.<br/>
-                        Passionate about User Experience, thoughtful design, performance and optimized driven algorithms
+                    <h5>Love to code, create beautiful user interface, build and develop great products.<br/>
+                        Passionate about user experience, thoughtful design, performance <br/> and optimized driven algorithms
                         and good coding practices.
                     </h5>
                 </Col> 

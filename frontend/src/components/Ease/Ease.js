@@ -25,28 +25,21 @@ export default class Ease extends Component {
                                 <a href="https://www.facebook.com/luckysharms9" target="_blank"  rel="noopener noreferrer" style={{color: 'dodgerblue'}}>Sajjan</a>,&nbsp;
                                 <a href="https://www.facebook.com/jsmanak" target="_blank"  rel="noopener noreferrer" style={{color: 'dodgerblue'}}>Jessie</a>&nbsp;
                                 and I worked on in our advanced iOS class. Ease is a health
-                                navigator app that allows patients to monitor their health condition(s) overtime. The app
-                                is available on&nbsp;
-                                <a href="https://itunes.apple.com/us/app/prostaid/id1199106855?mt=8" target="_blank" rel="noopener noreferrer" style={{color: 'dodgerblue'}}>iTunes</a>&nbsp;
-                                and if you want more info on Ease you can find it&nbsp;
-                                <a href="https://pages.cpsc.ucalgary.ca/~sharmask/" target="_blank" rel="noopener noreferrer" style={{color: 'dodgerblue'}}>here</a> and&nbsp;
-                                <a href="https://exdee.ai/" target="_blank" rel="noopener noreferrer" style={{color: 'dodgerblue'}}>here</a>.
-                                Our class was also featured&nbsp;
-                                <a href="http://ucalgary.ca/utoday/issue/2017-04-28/computer-science-students-get-creative-developing-ios-apps" target="_blank" rel="noopener noreferrer" style={{color: 'dodgerblue'}}>here</a>.
+                                navigator app that allows patients to monitor their health condition(s) overtime. 
                             </p>
-                            <p> We helped our client Exdee with their Ease app by developing their UI designs,
+                            <p> We assisted our client Exdee with their Ease app by developing their UI designs,
                                 some data visualization, data analytics and other features. The overall experience
                                 was to learn about iOS development with the Swift programming language, build a network
-                                with the clients we were assigned to work with and to teach each other about iOS development.
+                                with the client we were assigned to work with and to learn iOS development.
                             </p>
                             <p> I personally loved the experiences I had working on this project with my group members. I learned how
                                 to use coca pods, played with app delegates, created extensions, learned about firebase analytics and
-                                brushed up on my knowledge with auto layout. I was able witness how a startup functioned, planned and
-                                executed to reach their goals. From this experience it kind of showed me that anyone can open a startup
-                                business as long as they have the idea, the vision, knows the right people and does not give up without a fight.
+                                auto layout. I was able witness how a startup operated, planned and
+                                executed to reach their goals. From my experience it showed me that anyone can open a startup
+                                business as long as they have the idea, vision, passion, and know the right people.
                             </p>
                             <p> I'm glad I had the opportunity to learn about iOS development and I can see myself pursuing this career path either
-                                with my own company or with another.
+                                with my own startup or another.
                             </p>
                         </div>
                     </div>

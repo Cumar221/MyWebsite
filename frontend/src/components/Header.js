@@ -15,17 +15,18 @@ import ProjectKoffee from "./Project Koffee/ProjectKoffee";
 import SpaceSwerve from "./Space Swerve/SpaceSwerve";
 import Resume from "./Resume";
 import SalaamaHut from "./SalaamaHut/SalaamaHut";
+import TakeoffFinePainting from "./Take Off Fine Painting/Takeoff";
 import { Navbar, Nav } from "react-bootstrap";
 
 export default class Header extends Component {
   render() {
     return (
       <Router>
-        <Navbar bg={this.props.color} variant={this.props.color} expand="lg">
+        <Navbar className='p-4' bg={this.props.color} variant={this.props.color} expand="lg">
           <Navbar.Brand href="/">CY</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" style={{ float: "right" }}>
-            <Nav className="ml-auto">
+          <Navbar.Collapse id="basic-navbar-nav" className="float-end">
+            <Nav className="ms-auto">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/portfolio">Portfolio</Nav.Link>
               <Nav.Link href="/resume">Resume</Nav.Link>
@@ -49,6 +50,7 @@ export default class Header extends Component {
           <Route path="/earlyBerd" component={EarlyBerd} />
           <Route path="/resume" component={Resume} />
           <Route path="/salaamahut" component={SalaamaHut} />
+          <Route path="/takeofffinepainting" component={TakeoffFinePainting} />
         </Switch>
       </Router>
     );

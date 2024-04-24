@@ -8,8 +8,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = JSON.parse(window.localStorage.getItem("state")) || {
-      checked: false,
-      color: "light",
+      checked: true,
+      color: "dark",
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -44,10 +44,10 @@ class App extends Component {
     return (
       <React.Fragment>
         <Nav color={this.state.color}></Nav>
-        <label
-          style={{ position: "fixed", top: "45%", right: "0", padding: "10px" }}
-        >
+        {/*
+        <label style={{ position: "fixed", top: "45%", right: "0", padding: "10px" }} >
           <span></span>
+          
           <Switch
             checked={this.state.checked}
             onChange={this.handleChange}
@@ -64,7 +64,7 @@ class App extends Component {
             id="material-switch"
           />
         </label>
-        <Footer color={this.state.color}></Footer>
+        <Footer color={this.state.color}></Footer>*/}
       </React.Fragment>
     );
   }
